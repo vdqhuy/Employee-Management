@@ -1,0 +1,9 @@
+.main-content {
+    background-image: url("../../../../public/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -24rem;
+    overflow: auto;
+    background-color: whitesmoke;
+    height: 90%;
+}

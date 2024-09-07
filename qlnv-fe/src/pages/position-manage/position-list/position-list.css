@@ -1,0 +1,27 @@
+.manage-chuc-vu-wrapp {
+    height: 100%;
+}
+
+.btn-action {
+    display: flex;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.form-them-chuc-vu {
+    display: grid;
+    margin-top: 1rem;
+}
+
+.form-control-cv-custom {
+    margin-top: 1rem !important;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

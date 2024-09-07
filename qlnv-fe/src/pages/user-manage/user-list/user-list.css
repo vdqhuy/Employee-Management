@@ -1,0 +1,31 @@
+.manage-nhan-vien-wrapp {
+    height: 100%;
+}
+
+.btn-action {
+    display: flex;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.btn-action button {
+    margin-right: 10px;
+}
+
+/* .btn-rows-action {
+    display: contents !important;
+    width: fit-content;
+} */
+
+.table-wrapp {
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.table-pagination p {
+    margin: 0px;
+}
+
+.btn-tk {
+    text-transform: none !important;
+}

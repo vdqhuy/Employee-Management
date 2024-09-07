@@ -1,0 +1,26 @@
+.user-detail-wrapp {
+    padding: 1rem;
+}
+
+.user-detail-content {
+    opacity: 0.9;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+}
+
+.form-create-employee {
+    display: grid;
+}
+
+.form-control-custom {
+    margin-top: 1rem !important;
+}
+
+.form-errors {
+    margin-top: 0.5rem;
+}
+
+.form-control-label {
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+import { Router } from "express";
+import * as CaLamController from "../controller/calam.controller";
+import { adminGuard } from "../controller/guard.controller.js";
+const router = Router();
+router.use(adminGuard);
+router.post('/', CaLamController.themCaLamController);
+router.get('/', CaLamController.danhSachCaLamController);
+router.put('/', CaLamController.hieuChinhCaLamController);
+router.get('/danh-sach-ma-ca', CaLamController.danhSachCaLamOnlyMaCaController);
+router.get('/danh-sach-ten-ca', CaLamController.danhSachCaLamOnlyTenCaController);
+export default router;
