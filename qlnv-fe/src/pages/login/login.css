@@ -145,6 +145,10 @@ section .contentBx .formBx .inputBx p a
 }
 @media (max-width: 768px)
 {
+    .App {
+        background-color: #b32a44;
+    }
+
     section .imgBx
     {
         position: absolute;
@@ -166,8 +170,9 @@ section .contentBx .formBx .inputBx p a
     {
         width: 100%;
         padding: 40px;
-        background: rgb(255,255, 255 / 0 9);
+        background: rgb(255,255, 255, 0.9);
         margin: 50px;
+        border-radius: 15px;
     }
 }
 
