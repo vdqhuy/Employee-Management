@@ -8,20 +8,9 @@
     "start": "babel-node --experimental-specifier-resolution=node --trace-deprecation app.js",
     "dev": "nodemon --exec npm start"
   },
-  "engines": {
-      "node": ">=14.20.1"
-    },
   "type": "commonjs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/Duongdev77/qlnv_be.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/Duongdev77/qlnv_be/issues"
-  },
-  "homepage": "https://gitlab.com/Duongdev77/qlnv_be#readme",
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/node": "^7.0.0",
