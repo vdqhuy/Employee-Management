@@ -13,7 +13,7 @@ const SalaryChange = ({ navigate, role }) => {
     const [selected, setSelected] = useState([]);
     const [rowCount, setRowCount] = useState(0);
     const [page, setPage] = useState(0);
-    const [limit, setLimit] = useState(10);
+    const [limit] = useState(10);
     const [listDieuChinhLuong, setListDieuChinhLuong] = useState([]);
     const [currentRowData, setCurrentRowData] = useState(null)
     const isSelected = (name) => selected.indexOf(name) !== -1;

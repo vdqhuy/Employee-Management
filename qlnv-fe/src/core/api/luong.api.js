@@ -1,5 +1,5 @@
 import axiosClient from "./axiosClient";
-import axiosDefault from "./axiosDefault";
+// import axiosDefault from "./axiosDefault";
 
 const luongApi = {
     tinhLuong() {

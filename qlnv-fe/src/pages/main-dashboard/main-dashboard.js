@@ -3,7 +3,7 @@ import DashboardHeader from '../../templates/dashboard/header/header.js';
 import SideBar from '../../templates/dashboard/sidebar/sidebar';
 import MainContent from '../../templates/dashboard/main-content/main-content';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 const MainDashboard = () => {
     const navigate = useNavigate();

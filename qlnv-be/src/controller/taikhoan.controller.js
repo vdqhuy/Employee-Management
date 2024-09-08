@@ -121,7 +121,7 @@ export async function validateRecaptchaController (req, res) {
   try {
     const { token } = req.body;
     const response = await axios.post(
-      `https://www.google.com/recaptcha/api/siteverify?secret=6LcSPTkqAAAAAKBnlE-DbRdmF83jqsUab1jA6X3M&response=${token}`
+      `https://www.google.com/recaptcha/api/siteverify?secret=6LcYBDoqAAAAAJhQEipW1DWKapKRMEX_JgupYzpn&response=${token}`
     );
     console.log(response)
     if (response.data.success) {

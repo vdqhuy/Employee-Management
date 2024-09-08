@@ -226,7 +226,7 @@ const LoginPage = () => {
                             ></input>
                         </div>
                         <div className="inputBx recaptcha-center">
-                            <Reaptcha sitekey="6LcSPTkqAAAAAIuNOk9raa-WEBR9qf-jLXaGm2k-" onVerify={onVerify}/> 
+                            <Reaptcha sitekey="6LcYBDoqAAAAAM7tJpdyO57Getzt7EqiUa7tdxoj" onVerify={onVerify}/> 
                         </div>
                         {isCheckCaptcha ? (
                                 <div className="inputBx">
@@ -281,7 +281,7 @@ const LoginPage = () => {
                                 ></input>
                             </div>
                             <div className="inputBx recaptcha-center">
-                                <Reaptcha sitekey="6LcSPTkqAAAAAIuNOk9raa-WEBR9qf-jLXaGm2k-" onVerify={onVerify}/> 
+                                <Reaptcha sitekey="6LcYBDoqAAAAAM7tJpdyO57Getzt7EqiUa7tdxoj" onVerify={onVerify}/> 
                             </div>
                             {isCheckCaptcha ? (
                                 <div className="inputBx">
